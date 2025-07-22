@@ -1,6 +1,6 @@
 # Repo Guidelines
 
-- Mantener la separación actual entre `index.html`, `styles.css` y `data.json`.
-- Las modificaciones al horario deben hacerse en `data.json` y reflejarse en `index.html` mediante el mecanismo de renderizado que se esté usando.
-- Evitar agregar código JavaScript en la página salvo que sea estrictamente necesario.
-- Ejecutar cualquier verificación o pruebas que se definan en este archivo antes de realizar un commit.
+- Todo el sitio se compone únicamente de `index.html`.
+- El horario se modifica editando el bloque JSON con id `horario-data` dentro de ese archivo.
+- Mantener el JavaScript y los estilos embebidos para no depender de archivos externos.
+- Actualmente no hay pruebas automáticas definidas.
